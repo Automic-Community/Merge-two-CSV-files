@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<uc-export clientvers="11.2.3+build.465">
+<FolderStruct>
+<includeExternalObjects>0</includeExternalObjects>
+<FOLD name="EXCELMERGE" title="">
+<VARA id="1110002" link="0" name="EXCEL"/>
+<JOBS_WINDOWS id="1110003" link="0" name="EXCELMER"/>
+<PRPT id="1110004" link="0" name="EXCELMERGE"/>
+</FOLD>
+</FolderStruct>
+<VARA OVD_VRName="FREI" data_type="STATIC" name="EXCEL" replacementmode="2">
+<HEADER state="1">
+<Title/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType>STATIC</OH_SubType>
+</HEADER>
+<ATTR_VARA state="1">
+<Type>C|Text</Type>
+<lblSource>Static</lblSource>
+<source>STATIC</source>
+<VRName>FREI|Freely selected</VRName>
+<NotFoundErr>0</NotFoundErr>
+<NotFoundDef>1</NotFoundDef>
+<ShareN>0</ShareN>
+<ShareL>0</ShareL>
+<ShareR>0</ShareR>
+<MaxValue_C>1024</MaxValue_C>
+<CheckMax_C>0</CheckMax_C>
+<uppercase>0</uppercase>
+<sortColumn>0</sortColumn>
+<sortDirection>0</sortDirection>
+</ATTR_VARA>
+<VARA state="1">
+<Variables>
+<row Name="&quot;RA Webservices + API JAVA (informatica, Hyperion; )&quot;;Y;PSL;3;OBP" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Action Builder, Action Packs, Plugins, PluginManager, Marketplace, Package Manager;TBD;;3;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Analytics;Y;PS;3;&quot;CDP; OBP&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Automic Product Roadmap(Robert Schausberger, Kaj Wierda) + BlackBird;Y;MKG;1;&quot;JBD; MVE; KHA; PPE; JCB; MTD;KAZ&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Automic Web Interface;Y;PSL;3;KHA?!" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Centralized Agent Upgrade;Y;PS;3;&quot;JCR; MVE; OBP;KAZ&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="CONTENT;Y/N;Speaker;Day;CS Paris;ALL HANDS" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Continuous Delivery @ Automic(Christopher Hejl);TBD;;1;&quot;MVE; KHA; PPE; MTD&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Corp slot meeting;Y;TBD;1;;Y" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="DevOps Introduction, Trends &amp; Concepts(David Jungwirth);TBD;MKG;1;&quot;MVE; KHA; JCB&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Dollar Universe (roadmap);Y;Caloone;1;&quot;JBD; KHA; PPE; JCB; MTD&quot;;Y" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Download Center(Christopher Hejl);TBD;;1;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Experiences with V12(Robert Schausberger);Y;PS;2;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Installer, DB &amp; setup changes;Y;PS;3;&quot;JCR; CDP; OBP;KAZ&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Misc. enhancements;TBD;;3;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Product Overview(Robert Schausberger, Kaj Wierda);Y;MKG;1;KHA?!" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Service Level Management;Y;PSL;3;&quot;KHA; PPE; JCB&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Service Orchestration;Y;PSL;3;&quot;JCR; CDP; KHA;;KAZ&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Team slot meeting;Y   ;MGMER team;1;;N" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="TEST1;Y/N;Speaker;Day;&quot;!:s;d;,sd&quot;;sdsdsdsdS" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="TEST2;Y;Caloone;1;PšPPHHHHHHHHHHHH;sdsdsdsdS" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="TEST3;Y;PS;3;PšPPHHHHHHHHHHHH;sdsdsdsdS" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="TEST4;Y;PS;3;PšPPHHHHHHHHHHHH;sdsdsdsdS" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="TEST5;Y;PS;3;PšPPHHHHHHHHHHHH;sdsdsdsdS" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="The future of RA field solutions(Robert Schausberger,Stefan Leitich);Y;MKG;1;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="What's new in ARA V12;Y;MKG;3;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="Zero Downtime Upgrade;Y;PS;3;&quot;JCR; MVE; OBP;KAZ&quot;" Value="" Value1="" Value2="" Value3="" Value4=""/>
+</Variables>
+</VARA>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</VARA>
+<JOBS_WINDOWS AttrType="WINDOWS" name="EXCELMER">
+<XHEADER state="1">
+<Title/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<Active>1</Active>
+<OH_SubType/>
+<CustomAttributes KeyListID="0" dataRequestID="0"/>
+</XHEADER>
+<OUTPUTREG state="1">
+<FileReg/>
+</OUTPUTREG>
+<SYNCREF state="1">
+<Syncs/>
+</SYNCREF>
+<ATTR_JOBS state="1">
+<Queue>CLIENT_QUEUE</Queue>
+<StartType/>
+<HostDst>|VVIESUP03_WS112_X64_01_SYS|HOST</HostDst>
+<HostATTR_Type>WINDOWS</HostATTR_Type>
+<CodeName/>
+<Login>@LOGIN.DEFAULT</Login>
+<IntAccount/>
+<ExtRepDef>1</ExtRepDef>
+<ExtRepAll>0</ExtRepAll>
+<ExtRepNone>0</ExtRepNone>
+<AutoDeactNo>0</AutoDeactNo>
+<AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
+<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<DeactWhen/>
+<DeactDelay>0</DeactDelay>
+<AutoDeactAlways>1</AutoDeactAlways>
+<AttDialog>0</AttDialog>
+<ActAtRun>0</ActAtRun>
+<Consumption>0</Consumption>
+<UC4Priority>0</UC4Priority>
+<MaxParallel2>0</MaxParallel2>
+<MpElse1>1</MpElse1>
+<MpElse2>0</MpElse2>
+<TZ/>
+</ATTR_JOBS>
+<ATTR_WINDOWS state="1">
+<OutputDb>1</OutputDb>
+<OutputDbErr>0</OutputDbErr>
+<OutputFile>0</OutputFile>
+<IsGenerated>0</IsGenerated>
+<BAT>1</BAT>
+<COM>0</COM>
+<WinBatch>0</WinBatch>
+<Standard>1</Standard>
+<Minimized>0</Minimized>
+<Maximized>0</Maximized>
+<JObjDefault>1</JObjDefault>
+<JObjYes>0</JObjYes>
+<JObjNo>0</JObjNo>
+<WorkingDirectory>c:\</WorkingDirectory>
+<Command/>
+<LogOn>0</LogOn>
+<ShowJob>0</ShowJob>
+</ATTR_WINDOWS>
+<RUNTIME state="1">
+<MaxRetCode>0</MaxRetCode>
+<MrcExecute/>
+<MrcElseE>0</MrcElseE>
+<FcstStatus>0| |</FcstStatus>
+<Ert>1</Ert>
+<ErtMethodDef>1</ErtMethodDef>
+<ErtMethodFix>0</ErtMethodFix>
+<ErtFix>0</ErtFix>
+<ErtDynMethod>2|Average</ErtDynMethod>
+<ErtMethodDyn>0</ErtMethodDyn>
+<ErtCnt>0</ErtCnt>
+<ErtCorr>0</ErtCorr>
+<ErtIgn>0</ErtIgn>
+<ErtIgnFlg>0</ErtIgnFlg>
+<ErtMinCnt>0</ErtMinCnt>
+<MrtMethodNone>1</MrtMethodNone>
+<MrtMethodFix>0</MrtMethodFix>
+<MrtFix>0</MrtFix>
+<MrtMethodErt>0</MrtMethodErt>
+<MrtErt>0</MrtErt>
+<MrtMethodDate>0</MrtMethodDate>
+<MrtDays>0</MrtDays>
+<MrtTime>00:00</MrtTime>
+<MrtTZ/>
+<SrtMethodNone>1</SrtMethodNone>
+<SrtMethodFix>0</SrtMethodFix>
+<SrtFix>0</SrtFix>
+<SrtMethodErt>0</SrtMethodErt>
+<SrtErt>0</SrtErt>
+<MrtCancel>0</MrtCancel>
+<MrtExecute>0</MrtExecute>
+<MrtExecuteObj/>
+</RUNTIME>
+<DYNVALUES state="1">
+<dyntree>
+<node content="1" id="VALUE" name="Variables" parent="" type="VALUE">
+<VALUE state="1">
+<Values/>
+<Mode>0</Mode>
+</VALUE>
+</node>
+<node content="1" id="EXCELMERGE" name="EXCELMERGE" parent="PRPTS" type="PROMPTSET">
+<PROMPTSET name="EXCELMERGE" ontop="1">
+<PRPTBOX promptset="EXCELMERGE" prptmode="1">
+<CSV1s.00 altview="0" haslist="0"/>
+<CSV2s.00 altview="0" haslist="0"/>
+</PRPTBOX>
+</PROMPTSET>
+</node>
+</dyntree>
+</DYNVALUES>
+<ROLLBACK state="1">
+<RollbackFlag>0</RollbackFlag>
+<CBackupObj/>
+<CRollbackObj/>
+<FBackupPath/>
+<FDeleteBefore>0</FDeleteBefore>
+<FInclSubDirs>0</FInclSubDirs>
+</ROLLBACK>
+<PRE_SCRIPT mode="1" replacementmode="1" state="1">
+<PSCRI/>
+</PRE_SCRIPT>
+<SCRIPT mode="1" state="1">
+<MSCRI><![CDATA[! insert these lines in your script to determine if an error occurred
+! insert these lines in your script to determine if an error occurred
+:DELETE_VAR "EXCEL"
+:SET &HND# = PREP_PROCESS_FILE(VVIESUP03_WS112_X64_01_SYS,"&CSV1#",,"COL=DELIMITER,DELIMITER=*;*")
+:PROCESS &HND#
+: SET &line#=GET_PROCESS_LINE(&HND#)
+: P &line#
+: PUT_VAR EXCEL,"&line#",
+:ENDPROCESS
+
+:SET &HND2# = PREP_PROCESS_FILE(VVIESUP03_WS112_X64_01_SYS,"&CSV2#",,"COL=DELIMITER,DELIMITER=*;*")
+:PROCESS &HND2#
+: SET &line2#=GET_PROCESS_LINE(&HND2#)
+: PUT_VAR EXCEL,"&line2#",
+:  P &line2#
+:ENDPROCESS
+
+:SET &JOBS# = PREP_PROCESS_VAR(EXCEL)
+:PROCESS &JOBS#
+:  SET &JOB# = GET_PROCESS_LINE(&JOBS#)
+echo &JOB# >> C:\Temp\result.csv
+
+:ENDPROCESS
+:CLOSE_PROCESS &JOBS#
+
+! @set retcode=%errorlevel%
+! @if NOT %ERRORLEVEL% == 0 goto :retcode
+
+
+! @set retcode=%errorlevel%
+! @if NOT %ERRORLEVEL% == 0 goto :retcode
+]]></MSCRI>
+</SCRIPT>
+<OUTPUTSCAN state="1">
+<Inherit>N</Inherit>
+<filterobjects/>
+<HostFsc/>
+<LoginFsc/>
+</OUTPUTSCAN>
+<POST_SCRIPT mode="1" replacementmode="1" state="1">
+<OSCRI/>
+</POST_SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</JOBS_WINDOWS>
+<PRPT name="EXCELMERGE">
+<HEADER state="1">
+<Title/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<PROMPTDESIGNER state="1">
+<DESIGNER/>
+</PROMPTDESIGNER>
+<PROMPTSETXUI state="1">
+<XUIEDITOR><![CDATA[<dialog height="422" icon="PRPT" id="PRPTS" left="0" top="0" width="441"><readpanel fill="b" id="PRPTBOX" nl="1" scroll="v" text="PRPT"><properties><entry name="text">PRPT</entry><entry name="modifiable">0</entry></properties><label fill="b" id="LABEL2s.00" nl="1" text="Excel FILE 1" tooltip="" alt="0">
+      <properties>
+        <entry name="text">Excel FILE 1</entry>
+        <entry name="id">LABEL2s.00</entry>
+        <entry name="tooltip"/>
+        <entry name="modifiable">1</entry>
+        <entry name="customfield"/>
+      </properties>
+    </label><text alt="1" enabled="1" fill="b" focus="0" id="CSV1s.00" inputassistance="0" len="" multiline="0" multilineIcon="0" nl="1" regex="" required="0" separator=";" showaspassword="0" text="Path" tooltip="" upper="0"><oninputassistant><command request="_internal" target="_view" targetaction="setAttribute" targetparam="promptname|@id"/><command request="_internal" target="_view" targetaction="setAttribute" targetparam="promptvalue|@value"/><command owner="_promptsetcontainer" owneraction="getData" request="getpromptinputassistance" target="_chainwindow"/></oninputassistant>
+      
+      <properties>
+        <entry listparam="C,N" name="reference" reftype="STATIC">UC_DATATYPE_STRING</entry>
+        <entry name="xmlkey"/>
+        <entry name="xmlpath"/>
+        <entry name="text">Path</entry>
+        <entry name="multiline">0</entry>
+        <entry name="multilineIcon">0</entry>
+        <entry name="multiselect">0</entry>
+        <entry name="separator">;</entry>
+        <entry name="len"/>
+        <entry name="quotes"/>
+        <entry name="id">CSV1s.00</entry>
+        <entry name="regex"/>
+        <entry name="inputassistance">0</entry>
+        <entry name="enabled">0</entry>
+        <entry name="required">0</entry>
+        <entry name="upper">0</entry>
+        <entry name="focus">0</entry>
+        <entry name="showaspassword">0</entry>
+        <entry name="tooltip"/>
+        <entry name="modifiable">1</entry>
+        <entry name="customfield"/>
+        <entry name="onchangereset"/>
+        <entry name="resetable">1</entry>
+      <entry name="initvalue"/></properties>
+    </text><label fill="b" id="LABEL1s.00" nl="1" text="Excel FILE 2" tooltip="" alt="0">
+      <properties>
+        <entry name="text">Excel FILE 2</entry>
+        <entry name="id">LABEL1s.00</entry>
+        <entry name="tooltip"/>
+        <entry name="modifiable">1</entry>
+        <entry name="customfield"/>
+      </properties>
+    </label><text alt="1" enabled="1" fill="b" focus="0" id="CSV2s.00" inputassistance="0" len="" multiline="0" multilineIcon="0" nl="1" regex="" required="0" separator=";" showaspassword="0" text="Path" tooltip="" upper="0"><oninputassistant><command request="_internal" target="_view" targetaction="setAttribute" targetparam="promptname|@id"/><command request="_internal" target="_view" targetaction="setAttribute" targetparam="promptvalue|@value"/><command owner="_promptsetcontainer" owneraction="getData" request="getpromptinputassistance" target="_chainwindow"/></oninputassistant>
+      
+      <properties>
+        <entry listparam="C,N" name="reference" reftype="STATIC">UC_DATATYPE_STRING</entry>
+        <entry name="xmlkey"/>
+        <entry name="xmlpath"/>
+        <entry name="text">Path</entry>
+        <entry name="multiline">0</entry>
+        <entry name="multilineIcon">0</entry>
+        <entry name="multiselect">0</entry>
+        <entry name="separator">;</entry>
+        <entry name="len"/>
+        <entry name="quotes"/>
+        <entry name="id">CSV2s.00</entry>
+        <entry name="regex"/>
+        <entry name="inputassistance">0</entry>
+        <entry name="enabled">0</entry>
+        <entry name="required">0</entry>
+        <entry name="upper">0</entry>
+        <entry name="focus">0</entry>
+        <entry name="showaspassword">0</entry>
+        <entry name="tooltip"/>
+        <entry name="modifiable">1</entry>
+        <entry name="customfield"/>
+        <entry name="onchangereset"/>
+        <entry name="resetable">1</entry>
+      <entry name="initvalue"/></properties>
+    </text></readpanel></dialog>]]></XUIEDITOR>
+</PROMPTSETXUI>
+<PROMPTSETDATA state="1">
+<DATAEDITOR><![CDATA[<PRPTS ontop="1"><PRPTBOX><CSV1s.00 haslist="0" msgnr="-1" msginsert="" altview="0" promptname="CSV1#" ReadFromTable="OPSE"></CSV1s.00><CSV2s.00 haslist="0" msgnr="-1" msginsert="" altview="0" promptname="CSV2#" ReadFromTable="OPSE"></CSV2s.00></PRPTBOX></PRPTS>]]></DATAEDITOR>
+</PROMPTSETDATA>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</PRPT>
+</uc-export>
