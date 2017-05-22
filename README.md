@@ -9,6 +9,8 @@ http://github.com/Automic-Community/Merge-two-CSV-files
 Contents of Solution Package:
 
 						
+								*V11.2_CSV_MERGER_community.zip
+								
 								*MergeTwoCSV.xml
 								
 						
